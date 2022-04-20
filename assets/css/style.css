@@ -75,12 +75,37 @@ section.thr{
     text-shadow: 0px 2px 3px #2d2d2d;
 }
 
+section.fabout{
+  background-image: url('../imgs/FAbout.png');
+  background-size: cover;
+  color: #FFFFFF;
+  opacity: 1;
+  text-shadow: 0px 2px 3px #2d2d2d;
+  height: 45%;
+}
+
+section.fourth-about .col-md-4{
+padding: 0 !important;
+
+}
+
 section.fourth .card{
     box-shadow: 0px 0px 20px #e1e4ed;
     border-radius: 10px;
     margin-top: -3rem;
 }
 
+section.fourth-about  .card{
+   border-radius: 10px;
+  margin-top: -3rem;
+}
+.box-shadow{
+  box-shadow: 0px 0px 20px #a2a2a2;
+  z-index: 900;
+}
+section.fourth-about i {
+  color: #156de0;
+}
 section.fourth h1{
     color: #156DE0;
     font-weight: bolder;
@@ -169,12 +194,21 @@ section {
 }
 
 /*##### HERO SECTION #####*/
-.hero {
+.hero.home{
   height: 100%;
   background: url("../imgs/firstSection2x.png");
   background-size: cover;
   background-position: center;
 }
+
+.hero.about{
+  height: 100%;
+  background: url("../imgs/about.png");
+  background-size: cover;
+  background-position: center;
+}
+
+
 .hero .content {
   background: rgba(0, 0, 0, 0.5);
   width: 100%;
