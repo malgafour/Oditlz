@@ -117,7 +117,6 @@ section.fourth h1 span{
 
 section.sixth .sec{
   float: left;
-left: -119px;
 text-align: left;
 }
 
@@ -208,6 +207,30 @@ section {
   background-position: center;
 }
 
+.withphoto img{
+  top: -15.2rem;
+  position: relative;
+  right: -10rem;
+  width: 141%;
+  
+}
+
+.withcontent{
+  top: 245px;
+text-align: left;
+left: 140px;
+word-wrap: break-word;
+word-break: break-word;
+
+padding-right: 192px;
+}
+
+/* .hero.services{
+  height: 100%;
+  background: url("../imgs/services.png");
+  background-size: cover;
+  background-position: center;
+} */
 
 .hero .content {
   background: rgba(0, 0, 0, 0.5);
