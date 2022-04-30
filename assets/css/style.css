@@ -120,7 +120,60 @@ section.sixth .sec{
 text-align: left;
 }
 
+.jumbotron img{
+  border-style: none;
+width: 43%;
+position: relative;
+right: 33%;
 
+}
+
+@media screen and (min-width: 1196px)   {
+  .manbg{
+    right: 216px;
+    position: absolute;
+    background: #1456C4;
+    height: 18rem;
+    width: 9rem;
+    border-radius: 42%;
+    top: -35px;
+    rotate: 30deg;
+    content: " ";
+    color: transparent;
+  }
+  
+}
+.t10th label {
+  background-color: transparent;
+  color: white;
+  padding: 0.5rem;
+  font-family: sans-serif;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  margin-top: 1rem;
+  position: relative;
+right: 50%;
+}
+
+.t10th #file-chosen{
+  margin: 8.3rem 17.3rem 0 0;
+  font-family: sans-serif;
+}
+
+
+.t10th .lable{
+  text-align: center;
+position: relative;
+right: 47%;
+font: size 16px;
+font-weight: bolder;
+color: #331D56;
+
+}
+
+section.team{
+  padding-top: 62px;
+}
 section.sevth,
 section.ningth{
   background:  url(../imgs/ClientsAdvice.png);
