@@ -226,7 +226,9 @@ h5 i{
 h5 span{
   font-weight: 500 !important;
 }
-
+.blogd .col-md-6{
+  padding-top: 2rem;
+}
  footer{
    background: url(../imgs/footer.png);
    color: #fff;
