@@ -1,0 +1,12 @@
+<svg id="Bg-2" data-name="Bg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="516" viewBox="0 0 1920 516">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Bg" d="M0,0H1920V516H0Z" fill="rgba(225,228,237,0.3)"/>
+    </clipPath>
+  </defs>
+  <path id="Bg-3" data-name="Bg" d="M0,0H1920V516H0Z" fill="rgba(225,228,237,0.3)"/>
+  <g id="Bg-4" data-name="Bg" clip-path="url(#clip-path)">
+    <rect id="shape" width="360" height="900" rx="180" transform="matrix(0.719, 0.695, -0.695, 0.719, 1742.99, -396.883)" fill="rgba(225,228,237,0.3)"/>
+    <circle id="Oval" cx="120.5" cy="120.5" r="120.5" transform="translate(24 285)" fill="rgba(225,228,237,0.3)"/>
+  </g>
+</svg>

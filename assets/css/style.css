@@ -14,7 +14,9 @@ h1,h2,h3,h4,h5,h6{
   font-family: SansOneBold !important; 
 
 }
-
+body{
+  overflow-x: hidden;
+}
 .btn{
   width: 9rem;
 text-align: center;
@@ -171,8 +173,14 @@ color: #331D56;
 
 }
 
-section.team{
+section.team,
+section.Contact{
   padding-top: 62px;
+}
+section.Contact .jumbotron{
+background: url(../imgs/ContactBG.svg);
+background-color: transparent;
+background-size: contain;
 }
 section.sevth,
 section.ningth{
@@ -202,7 +210,22 @@ section.eaith{
    border-radius: 31px;
    border: 0;
  }
+.form-control{
+  background: #E9EAEF ;
+  border-radius: 31px;
+  border: 0;
+}
 
+textarea.form-control{
+  padding: 1rem 1rem 0 0;
+}
+
+h5 i{
+  color: #156DE0;
+}
+h5 span{
+  font-weight: 500 !important;
+}
 
  footer{
    background: url(../imgs/footer.png);
