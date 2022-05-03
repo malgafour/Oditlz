@@ -229,6 +229,17 @@ h5 span{
 .blogd .col-md-6{
   padding-top: 2rem;
 }
+.border-left{
+  border-color: #1456C4 !important;
+  border-width: 3px !important;
+}
+.list-group-item{
+background-color: transparent;
+border: 0 !important;
+}
+.breadcrumb{
+  margin-top: -2rem;
+}
  footer{
    background: url(../imgs/footer.png);
    color: #fff;
